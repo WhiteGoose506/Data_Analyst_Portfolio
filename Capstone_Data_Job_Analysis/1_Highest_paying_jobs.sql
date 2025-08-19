@@ -6,7 +6,7 @@ Question: What are the top-paying data analyst jobs?
 - Why? Highlight the top-paying opportunities for Data Analysts, offering insights into employment options and location flexibility.
 */
 
---With CTE (For practice purpose, I understand my query is not repetitively used)
+--With CTE (For practice purpose only)
 
 WITH top_ten_highest_pay AS
 (
@@ -41,12 +41,12 @@ ORDER BY
 salary_year_avg DESC,
 company_name ASC;
 
-/*  - CTE are commonly used, so I tried to practicing in this case.
-    - Within the CTE Select statement, I could've omited out other columns and focus specific columns
-        to be used in final SELECT statement, but I simply would like to check if my WHERE filter clause is working properly
-        to ensure my CTE runs as I have intended.
+/*  - CTE are commonly used in real world with multiple query within same file.
+    - Within the CTE Select statement, I could have omited out other columns and focus on the specifics
+        to be used in final SELECT statement, but I simply would like to check if my WHERE filter clause 
+        is working properly to ensure my CTE runs as I have intended.
     - Used RIGHT JOIN initially, since I only wanted specific details only from top_ten_highest_pay table, 
-        but swapped to INNER JOIN since it disregards the unnecessary either way.
+        but swapped to INNER JOIN since it disregards the unnecessary rows either way.
     - In the outer query, I selected only the necessary column to display since my CTE WHERE is working as intended.
 */
 
