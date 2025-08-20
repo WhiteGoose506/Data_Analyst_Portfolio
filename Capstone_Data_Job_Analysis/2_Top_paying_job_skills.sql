@@ -7,7 +7,7 @@ QUESTION 2: What skills are required for the top ten paying data analyst job(rem
 */;
 
 
--- Use CTE since it dervies from previous result and query
+-- Use CTE since it dervies from previous result and query --
 WITH highest_paying_job AS
 (
 SELECT
