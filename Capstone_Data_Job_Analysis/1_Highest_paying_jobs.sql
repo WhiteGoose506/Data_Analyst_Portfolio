@@ -1,5 +1,5 @@
 /*
-Question: What are the top-paying data analyst jobs?
+QUESTION 1: What are the top-paying data analyst jobs?
 - Identify the top 10 highest-paying Data Analyst roles that are available remotely
 - Focuses on job postings with specified salaries (remove nulls)
 - BONUS: Include company names of top 10 roles
@@ -7,6 +7,7 @@ Question: What are the top-paying data analyst jobs?
 */
 
 --With CTE (For practice purpose only)
+;
 
 WITH top_ten_highest_pay AS
 (
@@ -48,11 +49,13 @@ company_name ASC;
     - Used RIGHT JOIN initially, since I only wanted specific details only from top_ten_highest_pay table, 
         but swapped to INNER JOIN since it disregards the unnecessary rows either way.
     - In the outer query, I selected only the necessary column to display since my CTE WHERE is working as intended.
-*/
+*/;
 
 
 
 --Without CTE
+;
+
 SELECT
     c.name AS company_name,
     jp.company_id,
@@ -76,3 +79,4 @@ LIMIT 10;
 /* me:  Above query is a straight-forward and direct approach.
         Useful for simple queries, assuming if not being referenced to a lot.
 */
+;

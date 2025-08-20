@@ -1,5 +1,5 @@
 /*
-Question: What skills are required for the top ten paying data analyst job(remote) ?
+QUESTION 2: What skills are required for the top ten paying data analyst job(remote) ?
 - Use the previous question query(non-CTE) and built upon it
 - Add the specific skills required for the roles
 - Why? It provides a detailed look at which high-paying jobs demand certain skills,
