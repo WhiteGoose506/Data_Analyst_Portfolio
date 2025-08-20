@@ -7,6 +7,7 @@ QUESTION 3: What are the most in-demand skills for data analysts?
     providing insights into the most valuable skills for job seekers.
 */;
 
+
 SELECT 
     jp.job_title_short,
     s.skills,
