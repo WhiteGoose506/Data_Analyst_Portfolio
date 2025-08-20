@@ -22,3 +22,7 @@ GROUP BY
 ORDER BY
     avg_salary DESC
 limit 25;
+
+/*
+- Pretty straight forward
+*/;
