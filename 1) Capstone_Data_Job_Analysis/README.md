@@ -6,4 +6,4 @@ We shall dive deeper into particular details such as:
     In-Demand skills,
     Relations between high demand and high salary.
 
-SQL queries will be listed here [1) Capstone_Data_Job_Analysis]()
+All SQL queries will be listed within the folder here [sql_queries folder](/sql_queries/)
