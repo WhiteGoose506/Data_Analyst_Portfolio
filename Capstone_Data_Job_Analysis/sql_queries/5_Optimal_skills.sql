@@ -39,9 +39,12 @@ SELECT
 FROM high_demand AS hd
 INNER JOIN high_paying_skill AS hps 
     ON hd.skill_id = hps.skill_id
+WHERE 
+    hd.demand > 10
 ORDER BY 
-    hd.demand DESC,
-    hps.avg_salary DESC
+    hps.avg_salary DESC,
+    hd.demand DESC
+LIMIT 20;
 ;
 
 /*

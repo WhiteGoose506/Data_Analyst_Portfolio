@@ -9,7 +9,9 @@ Question 4: What are the top skills based on salary?
 
 SELECT 
     s.skills,
-    ROUND(AVG(salary_year_avg),0) AS avg_salary
+    ROUND(AVG(salary_year_avg),0) AS avg_salary,
+    SUM(CASE WHEN jp.job_work_from_home = TRUE THEN 1 ELSE 0 END) AS remote_job,
+    SUM(CASE WHEN jp.job_work_from_home = FALSE THEN 1 ELSE 0 END) AS non_remote_job
 FROM
     job_postings_fact AS jp
 INNER JOIN skills_job_dim AS sj ON jp.job_id = sj.job_id
@@ -21,7 +23,8 @@ GROUP BY
     s.skills
 ORDER BY
     avg_salary DESC
-limit 25;
+;
+
 
 /*
 - Pretty straight forward
