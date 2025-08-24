@@ -212,7 +212,7 @@ Created through csv file(extracted from query table)
 ---
 
 
-# Question 4: Skills based on highest salary
+# 4th Question: Skills based on highest salary
 ```sql
 SELECT 
     s.skills,
@@ -248,7 +248,7 @@ ORDER BY
 ---
 
 
-# Question 5: Optimal skill based on in-demand skill and highest pay for a data analyst(remote)
+# 5th Question: Optimal skill based on in-demand skill and highest pay for a data analyst(remote)
 ```sql
 WITH high_demand AS (
     SELECT 
