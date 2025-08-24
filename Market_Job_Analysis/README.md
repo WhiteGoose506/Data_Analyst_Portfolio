@@ -245,6 +245,7 @@ ORDER BY
 
 
 ---
+---
 
 
 # Question 5: Optimal skill based on in-demand skill and highest pay for a data analyst(remote)
