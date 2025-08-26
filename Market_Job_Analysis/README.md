@@ -84,7 +84,7 @@ company_name ASC;
 
 
 ### Returned query table 
-![top_ten_highest_pay](/Capstone_Data_Job_Analysis/assets/1_ten_highest_paid_salary_query.png)
+![top_ten_highest_pay](/Market_Job_Analysis/assets/1_ten_highest_paid_salary_query.png)
 
 
 #### Findings
@@ -98,7 +98,7 @@ company_name ASC;
 
 
 ### Column chart of the highest paying jobs(Data Analyst, inclusive of sub-branch)
-![Visualization](/Capstone_Data_Job_Analysis/assets/1_ten_highest_paid_salary_visualization.png) 
+![Visualization](/Market_Job_Analysis/assets/1_ten_highest_paid_salary_visualization.png) 
 Created through csv file(extracted from query table)
 
 ---
@@ -147,7 +147,7 @@ ORDER BY
 
 
 ### Returned query table 
-![query_table_2](/Capstone_Data_Job_Analysis/assets/2_top_paying_job_skills_query.png)
+![query_table_2](/Market_Job_Analysis/assets/2_top_paying_job_skills_query.png)
 
 
 #### Findings
@@ -160,7 +160,7 @@ ORDER BY
 
 
 ### Bar chart for the in-demand amongst the top paying company
-![Visualization_graph_2](/Capstone_Data_Job_Analysis/assets/2_top_paying_job_skills_visualization.png)
+![Visualization_graph_2](/Market_Job_Analysis/assets/2_top_paying_job_skills_visualization.png)
 Created through csv file(extracted from query table)
 
 ---
@@ -191,7 +191,7 @@ limit 5;
 
 
 ### Returned query table
-![query_table_3](/Capstone_Data_Job_Analysis/assets/3_in_demand_skills_query.png)
+![query_table_3](/Market_Job_Analysis/assets/3_in_demand_skills_query.png)
 
 
 #### Findings
@@ -205,14 +205,14 @@ limit 5;
 
 
 ### Bar chart for most in-demand skill as a data analyst
-![visual_graph_3](/Capstone_Data_Job_Analysis/assets/3_in_demand_skills_visualization.png)
+![visual_graph_3](/Market_Job_Analysis/assets/3_in_demand_skills_visualization.png)
 Created through csv file(extracted from query table)
 
 ---
 ---
 
 
-# Question 4: Skills based on highest salary
+# 4th Question: Skills based on highest salary
 ```sql
 SELECT 
     s.skills,
@@ -248,7 +248,7 @@ ORDER BY
 ---
 
 
-# Question 5: Optimal skill based on in-demand skill and highest pay for a data analyst(remote)
+# 5th Question: Optimal skill based on in-demand skill and highest pay for a data analyst(remote)
 ```sql
 WITH high_demand AS (
     SELECT 
