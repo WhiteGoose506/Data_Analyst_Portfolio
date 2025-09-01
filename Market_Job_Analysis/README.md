@@ -235,7 +235,7 @@ ORDER BY
 
 
 ### Returned query table (Full table shows 177 rows)
-<img src="assets/4_skill_highest_avg_salary_query.png" alt="query_table_4" width="400" height="600">
+
 
 
 #### Findings
