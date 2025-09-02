@@ -1,32 +1,35 @@
-## 👋 My name is Haizan. 
+## 📊 Exploratory Data Analysis (EDA)
 
-### Welcome to my Data Analyst Portfolio! 
+Welcome to the **EDA section** of my Data Analytics portfolio!  
+This space is dedicated to projects that highlight my ability to **explore datasets, uncover patterns, and generate insights**.  
 
 ---
-## This repository is a collection of projects and case studies where 
-- Showcasing my fundamental skill.
-- Thought process.
-- Approach to solving real-world data problems.
+
+### 🔍 What You’ll Find Here
+- **EDA Projects** – Beginner-level analysis of datasets  
+- **Thought Process** – How I approach identifying trends and relationships  
+- **Problem-Solving** – Using data exploration to answer meaningful questions  
+
 ---
 
-#### Through these projects, I try as closely as I can to replicate real world process:
+### 🛠 My EDA Workflow
+While **Data Cleaning** and **Visualization** are stored in their own dedicated folders, EDA often touches on them as part of the process:  
+1. **Exploratory Data Analysis** – discovering distributions, trends, and correlations  
+2. **Initial Visualizations** – supporting findings with charts where helpful  
 
-- Data Cleaning – Transforming raw data into a usable format.
-- Data Exploration & Analysis – Identifying trends, patterns, and insights.
-- Data Visualization – Presenting findings clearly using charts and dashboards.
-- Problem-Solving Approach – Applying analytical thinking to draw meaningful conclusions.
+---
 
-#### My programming language focus for this portfolio as listed
-- SQL
-- Python and their libraries (Numpy, Pandas, Seaborn) ~ soon...(Focusing on sql and it's fundamentals first)
-- R ~ Soon... (I have the basic understanding, and aware of Tidyverse to perform my analysis but shall focus more indepth in the above languages)
+### 💻 Tools & Technologies
+- **SQL** (primary focus for queries and analysis)  
+- **Python (Pandas, NumPy, Seaborn)** – expanding usage in ongoing projects  
+- **R (Tidyverse)** – for additional statistical exploration  
 
-#### My tools used throughout my future projects as listed:
-- VScode (Primary tool for my queries as well as remotely push/pull to github)
-- Postgres, Mysql
-- Jupyter Notebook
-- Excel (Usually for strict raw data)-(csv format)
-- Tableau, Powerbi
+---
 
+### 🎯 Goal
+Through these EDA projects, I aim to:  
+- Strengthen my analytical thinking  
+- Gain hands-on experience with real-world datasets  
+- Build a foundation that supports advanced analysis and data-driven decision-making  
 
-### My goal is to continuously learn and improve as a data analyst, while sharing my journey and practical work here.
+---
